@@ -1,0 +1,35 @@
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: brown;
+}
+
+ul {
+    overflow: hidden;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 600px;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    color: blanchedalmond;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(158, 19, 212);
+}
+
+img {
+    height: 150px;
+    width: 600px;
+}

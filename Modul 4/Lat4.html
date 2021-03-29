@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>Pendaftaran Anggota</title>
+</head>
+<body>
+    <H1 align="center"> Pendaftaran Anggota Perpustakaan UNS</H1>
+    <form action="register.php" method="POST" align="center" size="2">
+        <fieldset>
+             <p>
+                <label><b>NAMA:</b></label>
+                <input type="text" name="NAMA" placeholder="tuliskan nama anda...">
+            </p>
+            <p>
+                <label>NIM :    </label>
+                <input type="number" name="NIM" placeholder="tuliskan NIM anda....">
+            </p>
+            <p>
+                <label>Tanggal Lahir  : </label>
+                <input type="date" name="tgllahir">
+            </p>
+            <p>
+                <label>Jenis Kelamin anda : </label>
+                <label><input type="radio" name="tipe" value="male"></label>
+                <label><input type="radio" name="tipe" value="female"></label>
+            </p>
+            <p>
+                <label>JURUSAN : </label>
+                <select name="jurusan">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </p>
+            <p>
+                <label>Alamat : </label>
+                <textarea name="Alamat"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="Daftar" value="daftar">
+            </p>
+        </fieldset>
+</body>
+</html>

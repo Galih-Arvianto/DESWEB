@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Daftar euy</title>
+</head>
+<body>
+    <form action="register.php" method="POST">
+        <fieldset>
+            <legend>Form Reg</legend>
+            <p>
+                <label>username:</label>
+                <input type="text" name="username" placeholder="example">
+            </p>
+            <p>
+                <label>Password:</label>
+                <input type="password" name="password" placeholder="pass123">
+            </p>
+            <p>
+                <label>Tanggal Lahir</label>
+                <input type="date" name="tgllahir">
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <label><input type="radio" name="tipe" value="male"></label>
+                <label><input type="radio" name="tipe" value="female"></label>
+            </p>
+            <p>
+                <label>tipe akun</label>
+                <select name="tpakun">
+                    <option value="Trial">7 day</option>
+                    <option value="Subs">Berlanggan</option>
+                    <option value="VIP">VIP</option>
+                </select>
+            </p>
+            <p>
+                <label>Info lainnya</label>
+                <textarea name="Info"></textarea>
+            </p>
+            <p>
+                <input type="submit" name="submit" value="daftar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
