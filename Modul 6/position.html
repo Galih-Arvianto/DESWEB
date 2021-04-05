@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Layout HTML</title>
+        <style>
+
+            .static{
+                left: 100px;
+                position: static;
+                width: 300px;
+                height: 1000px;
+                background: aqua;
+            }
+            .relative{
+                left: 100px;
+                position: relative;
+                width: 400px;
+                height: 200px;
+                background: chartreuse;
+            }
+            .absolute{
+                left: 350px;
+                top: 150px;
+                position: absolute;
+                width: 300px;
+                height: 100px;
+                background: lightgreen;
+            }
+
+            .fixed{
+                left: 300px;
+                top: 50px;
+                position: fixed;
+                width: 200px;
+                height: 100px;
+                background: lightpink;
+            }
+            
+        </style>
+        <body>
+            <div class="static">
+                Elemen position:static<br>Nilai left:100px tidak berpengaruh
+            </div>
+            <div class="relative">
+                Elemen position:relative<br>Nilai left:100px mengikuti alur
+            </div>
+            <div class="absolute">
+                Elemen position:absolute<br>Dapat diletakkan dimana saja
+            </div>
+            <div class="fixed">
+                Elemen position:fixed<br>Tidak bergerak walau page di scroll
+            </div>
+        </body>
+    </head>
+</html>

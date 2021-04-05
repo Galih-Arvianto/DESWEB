@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Prak 6.2 z-index</title>
+        <style>
+            #layerA{
+                position:fixed;
+                margin:20px 150px;
+                height: 200px;
+                width: 200px;
+                background: yellow;
+                z-index: 3;
+            }
+
+            #layerB{
+                position: absolute;
+                margin: 100px 0px;
+                height: 150px;
+                width: 300px;
+                background: red;
+                z-index: 2;
+            }
+            #layerC{
+                position: relative;
+                margin: 0px 20px;
+                height: 200px;
+                width: 400px;
+                background: blue;
+                z-index: 1;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="layerA">A</div>
+        <div id="layerB">B</div>
+        <div id="layerC">C</div>
+    </body>
+</html>
