@@ -1,0 +1,1 @@
+alert ("Hayo belum Sholat");
